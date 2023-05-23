@@ -43,7 +43,7 @@ def generate_smart_reply(text):
 
 def main():
     # Create an instance of the Updater class and pass the Telegram API token
-    updater = Updater(token=TELEGRAM_API_TOKEN, use_context=True)
+    updater = Updater(token=5058249365:AAHo-3OncX6fBQTTQexaCKqhy2jCLyFUdg0, use_context=True)
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
