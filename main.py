@@ -7,10 +7,11 @@ from pymongo import MongoClient
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # Get the Telegram API token from environment variable
-TELEGRAM_API_TOKEN = os.environ.get('TELEGRAM_API_TOKEN')
+TELEGRAM_API_TOKEN = os.environ.get('5058249365:AAHo-3OncX6fBQTTQexaCKqhy2jCLyFUdg0')
 
 # Get the MongoDB URI from environment variable
-MONGODB_URI = os.environ.get('MONGODB_URI')
+MONGODB_URI = os.environ.get('mongodb+srv://abc:abcd@cluster0.r9241sb.mongodb.net/?retryWrites=true&w=majority
+')
 
 # Connect to MongoDB
 client = MongoClient(MONGODB_URI)
